@@ -21,6 +21,8 @@ import VariableSizeListExample from './Component/OptimizationOfLargeList/Variabl
 import GridVirtualizationExample from './Component/OptimizationOfLargeList/GridVirtualization.tsx';
 import ConsumeLocStorageUseState from './Component/StateSyncWithLocStorage/ConsumeLocStorageUseState.jsx';
 import ConsumeCounterSlice from './Component/Store_CreateSlice/ConsumeCounterSlice.jsx';
+import ControlledForm from './Component/Controlled_UnControlled/Controlled.jsx';
+import UncontrolledForm from './Component/Controlled_UnControlled/UnControlled.jsx';
 
 function App() {
   return (
@@ -52,7 +54,9 @@ function App() {
     // <GridVirtualizationExample  />
     // <ConsumeLocStorageUseState />
 
-    <ConsumeCounterSlice />
+    // <ConsumeCounterSlice />
+    // <ControlledForm />
+    <UncontrolledForm />
   );
 }
 
